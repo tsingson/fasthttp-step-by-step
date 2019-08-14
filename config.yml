@@ -1,0 +1,17 @@
+title: fasthttp-step-by-step
+tagline: A brand new course on Learning Lab
+description: learn how to use fasthttp in real project
+template:
+  repo: fasthttp-step-by-step-template
+  name: fasthttp-step-by-step
+before:
+  - type: createIssue
+    title: Welcome!
+    body: new-issue.md
+steps:
+  - title: First step
+    description: The first step in your course
+    event: issues.assigned
+    link: '{{ repoUrl }}'
+    actions:
+      - type: closeIssue
